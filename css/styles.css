@@ -57,6 +57,7 @@ ol {
 .nav-container {
   display: flex;
   margin-top: 25px;
+  align-items: center;
 }
 
 .nav-list-items {
