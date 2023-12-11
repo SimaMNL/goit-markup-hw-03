@@ -46,15 +46,12 @@ ol {
   background: var(--WHITE, #fff);
   height: 72px;
   flex-shrink: 0;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-container {
   border-bottom: 1px solid #e7e9fc;
-}
-
-.container-parent {
-  justify-content: space-between;
-  align-items: center;
 }
 
 .nav-container {
@@ -207,6 +204,7 @@ ol {
 
 .our-team-section {
   background: var(--cloud-color);
+  padding: 120px 0 120px;
 }
 
 .our-us {
@@ -247,7 +245,7 @@ ol {
 
 .images-we-doing {
   border: 1px solid var(--corn-flower);
-  flex-basis: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 3 * 16px) / 3);
 }
 
 .our-team-section {
@@ -278,6 +276,7 @@ ol {
 
 .our-team-pictures {
   background-color: #ffffffff;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .our-team-names {
@@ -285,7 +284,7 @@ ol {
   width: 232px;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  text-align: center;
   gap: 8px;
 
   background-color: #ffffffff;
@@ -429,6 +428,7 @@ ol {
   align-items: flex-start;
   gap: 8px;
   align-self: stretch;
+  margin-bottom: 8px;
 }
 
 .images-what-we-make {
