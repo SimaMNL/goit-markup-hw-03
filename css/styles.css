@@ -246,6 +246,9 @@ ol {
 
 .images-we-doing {
   border: 1px solid var(--corn-flower);
+}
+
+.list-image-we-doing {
   flex-basis: calc((100% - 3 * 16px) / 3);
 }
 
