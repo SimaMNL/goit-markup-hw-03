@@ -56,12 +56,10 @@ ol {
 
 .nav-container {
   display: flex;
-  margin-top: 25px;
   align-items: center;
 }
 
 .nav-list-items {
-  margin-bottom: 25px;
   gap: 40px;
   margin-left: 36px;
 }
